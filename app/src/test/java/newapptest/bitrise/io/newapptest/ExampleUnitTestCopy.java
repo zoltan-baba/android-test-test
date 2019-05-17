@@ -1,5 +1,6 @@
 package newapptest.bitrise.io.newapptest;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -14,8 +15,9 @@ public class ExampleUnitTestCopy {
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+    @Ignore
     @Test
-    public void addition_isCorrect2() {
+    public void testSkipping() {
         assertEquals(4, 2 + 2);
     }
     @Test
