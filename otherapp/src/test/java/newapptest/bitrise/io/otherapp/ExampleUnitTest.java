@@ -1,4 +1,4 @@
-package newapptest.bitrise.io.newapptest;
+package newapptest.bitrise.io.otherapp;
 
 import org.junit.Test;
 
@@ -9,14 +9,14 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-public class ExampleUnitTestCopy {
+public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
     @Test
-    public void addition_isCorrect2() {
-        assertEquals(4, 2 + 2);
+    public void addition_willfail() {
+        assertEquals(5, 2 + 2);
     }
     @Test
     public void addition_isCorrect3() {
